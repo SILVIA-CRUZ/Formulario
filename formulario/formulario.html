@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UFT-8">
+	<title>formulario</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0"></head>
+	<link rel="stylesheet" href="estilos.css">
+<body>
+  <center>
+  <div class="contenedor">
+<form action="" class="form"> 
+  <div class="form-header">
+    <h1 class="form-title">F<span>ormulario</span></h1>
+  </div>
+
+  <label for="nombre" class="form-label">Nombres:</label>
+  <input type="text" id="nombre" class="form-input" placeholder="Escribe tu nombre">
+
+  <label for="apellidos" class="form-label">Apellidos:</label>
+  <input type="apellidos" class="form-input" id="Apellidos" placeholder="Escribe tus apellidos">
+
+  <label for="curp" class="form-label">Curp:</label>
+  <input type="text" id="curp" class="form-input" placeholder="Escribe tu curp">
+
+  <label for="nombre" class="form-label">Edad:</label>
+  <input type="text" id="Edad"  class="form-input" placeholder="Escribe tu edad">
+
+  <label for="dirección" class="form-label">Direccion:</label>
+  <input type="text" id="direccion"  class="form-input" placeholder="Escribe tu direccion">
+
+  <label for="ocupación" class="form-label">Ocupacion:</label>
+  <select name="ocupaciones" onchange="ocupaciones(this.value);">
+    <option value="1">estudiante</option>
+    <option value="2">trabajo</option>
+    <option value="3">ambas</option>
+    </select>
+
+    
+ <label for="estado civil" class="form-label">Estado civil:</label>
+  <select name="estado civil de la persona" onchange="Estado civil(this.value);">
+    <option value="1">soltero(a)</option>
+    <option value="2">casado(a)</option>
+    <option value="3">Divorciado(a)</option>
+
+<input type="submit" class="btn-submit"value="Enviar"><br>
+
+</form>
+</select>
+</div>
+</center>
+</body>
+</html>
